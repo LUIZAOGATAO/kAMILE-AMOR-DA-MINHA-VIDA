@@ -1,0 +1,128 @@
+/* Estilo básico do corpo */
+body {
+    background-color: #fce4ec; /* Cor de fundo suave */
+    color: #4b3c2b; /* Cor do texto marron */
+    font-family: 'Arial', sans-serif; /* Fonte simples */
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo do cabeçalho */
+header {
+    text-align: center;
+    padding: 30px;
+    background-color: #ff69b4; /* Rosa vibrante */
+    color: white;
+    border-bottom: 5px solid #ff1493; /* Linha abaixo do cabeçalho */
+}
+
+/* Estilo do container */
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff; /* Fundo branco */
+    border-radius: 15px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilo dos artigos */
+article {
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: #ff1493; /* Rosa mais escuro */
+    border-bottom: 2px solid #ff69b4; /* Linha abaixo do título */
+    padding-bottom: 10px;
+}
+
+/* Estilo das imagens */
+.photo {
+    width: 30%; /* Imagem responsiva */
+    border-radius: 15px; /* Bordas arredondadas */
+    margin-top: 10px;
+}
+
+/* Estilo da galeria */
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.gallery-photo {
+    width: 30%; /* Ajuste a largura conforme necessário */
+    border-radius: 15px;
+}
+
+/* Estilo dos botões */
+.button {
+    display: inline-block;
+    background-color: #ffcc00; /* Amarelo vibrante */
+    color: #4b3c2b; /* Texto marron */
+    border: none;
+    border-radius: 10px; /* Bordas arredondadas */
+    padding: 15px 30px;
+    text-decoration: none; /* Remove o sublinhado */
+    font-size: 1.1em; /* Aumenta o tamanho da fonte */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Transição suave */
+}
+
+.button:hover {
+    background-color: #ff9900; /* Amarelo mais escuro ao passar o mouse */
+    transform: scale(1.05); /* Aumenta levemente o botão */
+}
+
+/* Estilo do modal */
+.modal {
+    display: none; /* Escondido por padrão */
+    position: fixed; /* Fica sobre a tela */
+    z-index: 1; /* Fica na frente */
+    left: 0;
+    top: 0;
+    width: 100%; /* Largura total */
+    height: 100%; /* Altura total */
+    overflow: auto; /* Habilita o scroll se necessário */
+    background-color: rgb(0,0,0); /* Cor de fundo */
+    background-color: rgba(0,0,0,0.5); /* Fundo transparente */
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* Centraliza */
+    padding: 30px;
+    border: 1px solid #888;
+    width: 80%; /* Largura do modal */
+    border-radius: 15px; /* Bordas arredondadas */
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+.close {
+    color: #aaa;
+    float: right; /* Alinha à direita */
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Estilo da imagem de surpresa */
+.surprise-image {
+    width: 30%; /* Imagem responsiva */
+    border-radius: 15px; /* Bordas arredondadas */
+    margin-top: 10px;
+}
+
+/* Estilo do rodapé */
+footer {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 0.9em;
+    color: #4b3c2b; /* Cor do texto marron */
+}

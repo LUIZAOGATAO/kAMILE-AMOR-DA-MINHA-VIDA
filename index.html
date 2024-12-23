@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Para Minha Namorada</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Para Você, Meu Amor</h1>
+</header>
+
+<div class="container">
+    <article>
+        <h2>Meu Coração</h2>
+        <p>Meu Amor
+            Desde o momento em que nossos olhares se cruzaram, soube que você era especial. Cada instante ao seu lado é um presente que eu valorizo profundamente. Sua risada ilumina meus dias e seu sorriso é a razão pela qual eu acordo com esperança.
+            Você é a calma na minha tempestade, o abrigo onde encontro paz. Com você, aprendi o verdadeiro significado do amor, uma conexão que vai além das palavras. Cada conversa, cada toque, cada momento juntos me faz querer ser uma pessoa melhor.
+            Prometo estar ao seu lado em todos os altos e baixos, celebrando as vitórias e enfrentando os desafios juntos. Meu coração é seu, e a cada dia que passa, meu amor por você só cresce</p>
+        <img src="foto1.jpg" alt="Uma foto especial" class="photo">
+    </article>
+
+    <article>
+        <h2>Uma Mensagem Especial</h2>
+        <p>Te amo mais do que palavras podem expressar. Espero que esse site te faça sorrir tanto quanto você me faz feliz!Amor, desde que você entrou na minha vida, tudo mudou. Você acendeu em mim uma luz que eu não sabia que existia. Cada momento ao seu lado é um tesouro que guardo com carinho. Eu quero que você saiba que a sua felicidade é a minha missão. Se não for eu a te fazer feliz, quem mais poderá ser? Você merece o melhor que a vida pode oferecer, e estou aqui, de coração aberto, para te apoiar em cada passo. Vamos juntos construir uma história cheia de amor, risadas e sonhos realizados.</p>
+    </article>
+
+    <article>
+        <h2>Galeria de Fotos</h2>
+        <div class="gallery">
+            <img src="foto2.jpg" alt="Foto 1" class="gallery-photo">
+            <img src="foto3.jpg" alt="Foto 2" class="gallery-photo">
+            <img src="foto4.jpg" alt="Foto 3" class="gallery-photo">
+        </div>
+    </article>
+
+    <article>
+        <h2>Músicas que Amamos</h2>
+        <ul>
+            <li>Um Amor Puro - Djavan</li>
+            <li>Die With Smile - bruno Mars/Lady Gaga</li>
+            <li>Um Dia Frio - Djavan</li>
+        </ul>
+    </article>
+
+    <article>
+        <h2>Comidas Favoritas</h2>
+        <ul>
+            <li>Macarrão</li>
+            <li>Lasanha</li>
+            <li>Churrasco</li>
+        </ul>
+    </article>
+
+    <article>
+        <h2>Momentos Especiais</h2>
+        <p>Aqui estão alguns momentos que sempre vou lembrar:</p>
+        <ul>
+            <li>Nosso Primeiro Beijo</li>
+            <li>Viagem Para o Ody Parque</li>
+            <li>Show do Sérgio Reis</li>
+        </ul>
+    </article>
+
+    <article>
+        <h2>Lista de Desejos</h2>
+        <p>Coisas que quero fazer com você:</p>
+        <ul>
+            <li>Se Casar</li>
+            <li>Morar Juntos</li>
+            <li>Viajar o Mundo</li>
+        </ul>
+    </article>
+
+    <article>
+        <h2>Uma Última Surpresa...</h2>
+        <p>Para finalizar, aqui está uma mensagem especial só para você!</p>
+        <a href="#" class="button" onclick="openModal()">Clique aqui para descobrir!</a>
+    </article>
+</div>
+
+<div id="surpriseModal" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <h2>Surpresa!</h2>
+        <p>Você é a minha razão de viver! Te amo muito!
+            "Você é a razão do meu sorriso e a luz nos meus dias. Cada momento ao seu lado é um presente que eu nunca quero perder. Se não for você quem vai me fazer feliz, então não sei como seria a vida. Meu amor por você é profundo e verdadeiro, e estou aqui para te apoiar e amar incondicionalmente. Você é tudo que eu sempre sonhei.</p>
+        <img src="foto5.jpg" alt="Surpresa" class="surprise-image"> <!-- Troque pela imagem que você deseja usar -->
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2023. Sempre seu.</p>
+</footer>
+
+<script>
+    function openModal() {
+        document.getElementById("surpriseModal").style.display = "block";
+    }
+
+    function closeModal() {
+        document.getElementById("surpriseModal").style.display = "none";
+    }
+</script>
+
+</body>
+</html>
